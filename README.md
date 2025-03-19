@@ -43,4 +43,5 @@ On EC2 page launch instance
 ![image](https://github.com/user-attachments/assets/f1d591c3-940f-4738-82ec-44a2aa9bf4e0)
 
 
+<img width="404" alt="image" src="https://github.com/user-attachments/assets/cb04d595-8848-42b6-9675-27a867790068" />
 

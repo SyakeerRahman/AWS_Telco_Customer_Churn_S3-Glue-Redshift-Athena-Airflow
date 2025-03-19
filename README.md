@@ -1,6 +1,6 @@
 # AWS_Telco_Customer_Churn_S3-Glue-Redshift-Athena-Airflow
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/1d06724a-359b-4dd9-8f94-cf4a503e9e77)
 
 Telco Customer Churn Data Pipeline 
 AWS Cloud Data Engineering Project 

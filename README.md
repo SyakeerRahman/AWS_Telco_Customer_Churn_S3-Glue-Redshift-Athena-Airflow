@@ -1,4 +1,4 @@
-<img width="455" alt="image" src="https://github.com/user-attachments/assets/a0151c66-e457-402b-bb60-563161b32c7e" /># AWS_Telco_Customer_Churn_S3-Glue-Redshift-Athena-Airflow
+# AWS_Telco_Customer_Churn_S3-Glue-Redshift-Athena-Airflow
 
 ![image](https://github.com/user-attachments/assets/1d06724a-359b-4dd9-8f94-cf4a503e9e77)
 
@@ -100,7 +100,7 @@ After everything is setup, run the crawler
 
 query the data
 ![image](https://github.com/user-attachments/assets/4632ea88-d5cc-4acc-a10d-64f6672ade7e)
-
+<img width="455" alt="image" src="https://github.com/user-attachments/assets/a0151c66-e457-402b-bb60-563161b32c7e" />
 
 # 5. Setup Redshift Cluster and create table
 

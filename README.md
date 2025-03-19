@@ -31,4 +31,16 @@ I want to share my latest Data Engineering project where I put my skills to the 
 7. Amazon Athena
 
 
+## 1. Run EC2 to Install Airflow
+
+### 1.1 Setting up EC2
+
+On EC2 page launch instance
   
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/66a82317-ad2b-48bf-a322-b0b687c6b6ce" />
+![image](https://github.com/user-attachments/assets/6433be96-721d-4da9-b3bf-1b8771ce2e41)
+![image](https://github.com/user-attachments/assets/cc054391-1f9d-4229-91c4-5ca4ca65ce4e)
+![image](https://github.com/user-attachments/assets/f1d591c3-940f-4738-82ec-44a2aa9bf4e0)
+
+
+

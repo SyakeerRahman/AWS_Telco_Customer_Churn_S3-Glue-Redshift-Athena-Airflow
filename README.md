@@ -1,4 +1,4 @@
-# AWS_Telco_Customer_Churn_S3-Glue-Redshift-Athena-Airflow
+<img width="455" alt="image" src="https://github.com/user-attachments/assets/a0151c66-e457-402b-bb60-563161b32c7e" /># AWS_Telco_Customer_Churn_S3-Glue-Redshift-Athena-Airflow
 
 ![image](https://github.com/user-attachments/assets/1d06724a-359b-4dd9-8f94-cf4a503e9e77)
 
@@ -38,10 +38,10 @@ I want to share my latest Data Engineering project where I put my skills to the 
 On EC2 page launch instance
   
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/66a82317-ad2b-48bf-a322-b0b687c6b6ce" />
-![image](https://github.com/user-attachments/assets/6433be96-721d-4da9-b3bf-1b8771ce2e41)
-![image](https://github.com/user-attachments/assets/cc054391-1f9d-4229-91c4-5ca4ca65ce4e)
-![image](https://github.com/user-attachments/assets/f1d591c3-940f-4738-82ec-44a2aa9bf4e0)
+<img width="444" alt="image" src="https://github.com/user-attachments/assets/ba20f5a9-9c1c-4f04-8fa9-59e9bded9a2e" />
+<img width="437" alt="image" src="https://github.com/user-attachments/assets/6aae095c-9d9e-4083-ad99-b49af6cdeb22" />
+<img width="455" alt="image" src="https://github.com/user-attachments/assets/600185c8-5722-4cef-b0a8-2ea688c0ef86" />
 
-
+### 1.2 Connect to Instances
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/cb04d595-8848-42b6-9675-27a867790068" />
 

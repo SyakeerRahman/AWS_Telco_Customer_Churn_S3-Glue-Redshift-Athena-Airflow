@@ -104,8 +104,64 @@ query the data
 
 # 5. Setup Redshift Cluster and create table
 
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/b8c53857-99bc-45cf-b59e-7c03ae7a1191" />
+<img width="823" alt="image" src="https://github.com/user-attachments/assets/c46f1216-d5fc-4c8d-a20f-7619a1ee3a70" />
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/0e22f30b-cf44-4223-97f8-4501b8c85f2e" />
+
+Open Query Editor V2
+
+go to Dev > public > table and we will create a table
+
+CREATE TABLE IF NOT EXISTS customer_churn(
+   CustomerID VARCHAR(255),
+   City VARCHAR(255),
+   Zip_Code INTEGER,
+   Gender VARCHAR(255), 
+   Senior_Citizen VARCHAR(255),
+   Partner VARCHAR(255),
+   Dependents VARCHAR(255), 
+   Tenure_Months INTEGER,
+   Phone_Service VARCHAR(255),
+   Multiple_Lines VARCHAR(255),
+   Internet_Service VARCHAR(255),
+   Online_Security VARCHAR(255),
+   Online_Backup VARCHAR(255), 
+   Device_Protection VARCHAR(255),
+   Tech_Support VARCHAR(255),
+   Streaming_TV VARCHAR(255),
+   Streaming_Movies VARCHAR(255),
+   Contract VARCHAR(255),
+   Paperless_Billing VARCHAR(255),
+   Payment_Method VARCHAR(255),
+   monthly_charges FLOAT,
+   Total_Charges FLOAT,
+   Churn_Label VARCHAR(255),
+   Churn_Value INTEGER,
+   Churn_Score INTEGER,
+   Churn_Reason TEXT
+)
 
 # 6. Create Glue crawler, connector to Redshift and run ETL job
 
+Create connections (to redshift)
+
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/9b1bec21-87f4-40eb-9df1-44dd950de44f" />
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/d16c3af1-54c0-4847-b036-8ef71a225e12" />
+
+create 1 more crawler  (to redshift)
+
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/13481ccd-a8b8-45f1-a825-39ae1a08aaf6" />
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/80e90dff-cdc1-494e-8dd1-560fcedb7127" />
+
+if the ETL crawler failed, try:
+create vpc endpoint pointing to s3 gateway and after this, try run crawler again
+
+<img width="946" alt="image" src="https://github.com/user-attachments/assets/2069815b-e710-452d-a2a8-3fec2df1aaa9" />
+<img width="744" alt="image" src="https://github.com/user-attachments/assets/b1ebe37d-a8f5-4548-aab1-5cb929a21675" />
+
+
+now we are going to set up ETL job
+
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/e39c7bb0-9db1-4f63-8db6-b23aac2c71f2" />
 
 # 7. Orchestrate the task using Airflow

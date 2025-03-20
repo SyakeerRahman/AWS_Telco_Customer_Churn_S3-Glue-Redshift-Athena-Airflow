@@ -165,3 +165,25 @@ now we are going to set up ETL job
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/e39c7bb0-9db1-4f63-8db6-b23aac2c71f2" />
 
 # 7. Orchestrate the task using Airflow
+
+- use the code i provided
+setup the dag, in this dag we are going to 
+run the ETL job >>> fetch job id >>> get the status of the job (succeed or failed)
+
+before that setup the connection to aws service
+<img width="641" alt="image" src="https://github.com/user-attachments/assets/de56a342-0fba-43f6-b1de-6043522280b0" />
+
+get the access key from IAM 
+
+
+go back to instance, and connect to it
+- source customer_churn_venv/bin/activate
+- pip install --upgrade awscli
+- aws configure
+- put access key, and secret access
+- put region
+
+  run the dag job
+
+  # 8. Connect Powerbi to Redshift
+
